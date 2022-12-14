@@ -1,15 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="14.931">
-    <testcase classname="app_title_verification" name="TC01_title_on_chrome" time="7.144">
-        <system-out><![CDATA[Given user is on the application_url "https://www.bluerentalcars.com/"......passed
-Then verify the page title is "Blue Rental Cars | Cheap, Hygienic, VIP Car Hire".passed
-Then close the remote driver................................................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="app_title_verification" name="TC01_title_on_chrome_2" time="7.387">
-        <system-out><![CDATA[Given user is on the application_url with Edge "https://www.bluerentalcars.com/".passed
-Then verify the page title is "Blue Rental Cars | Cheap, Hygienic, VIP Car Hire".passed
-Then close the remote driver................................................passed
-]]></system-out>
-    </testcase>
-</testsuite>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" time="0.18"/>
