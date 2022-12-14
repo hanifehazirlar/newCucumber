@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="30.249">
-    <testcase classname="US_009 Staff (Personel)," name="TC_001 &quot;My Pages&quot; sekmesinden hasta bilgilerini görebilmelidir." time="29.781">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="31.329">
+    <testcase classname="US_009 Staff (Personel)," name="TC_001 &quot;My Pages&quot; sekmesinden hasta bilgilerini görebilmelidir." time="30.923">
         <system-out><![CDATA[Given HH Personel "medunnaUrl" e gider......................................passed
 And HH Personel sayfanin sag ust  kosesindeki drop down a tiklar............passed
 And HH Personel Sing in segmesine tiklar....................................passed
-And HH Personel  Username box a gecerli "hanifepersonelusername"  girer.....passed
-And HH Personel Password box a gecerli "hanifepersonelpassword" girer.......passed
+And HH Personel  Username box a gecerli "HHstaffusername"  girer............passed
+And HH Personel Password box a gecerli "HHstaffpassword" girer..............passed
 And HH Personel  giris yapmak uzere Sign in butonuna  tiklar................passed
 And HH Personel MY PAGES sekmesine tiklar...................................passed
 And HH Personel Search Patient sekmesine tiklar.............................passed
-And HH Personel Patient SSN box a hasta SSN'ini girer.......................passed
 Then HH Gidilen sayfada hasta bilgilerinin gorunur oldugunu dogrular........passed
-When HH Kullanici cookies i siler...........................................passed
-And HH Kullanci browser i kapatir...........................................passed
+And HH Personel sayfayi kapatir.............................................passed
 ]]></system-out>
     </testcase>
 </testsuite>
